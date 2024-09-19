@@ -1,0 +1,661 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "%@" : {
+
+    },
+    "%@ - %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ - %2$@"
+          }
+        }
+      }
+    },
+    "%lld" : {
+
+    },
+    "ANONYMOUS LOG IN" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ANONYMER LOGIN"
+          }
+        }
+      }
+    },
+    "Are you sure you want to delete your account?" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Möchten Sie Ihr Konto wirklich löschen?"
+          }
+        }
+      }
+    },
+    "Cart" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warenkorb"
+          }
+        }
+      }
+    },
+    "Clear the Cart" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den Einkaufswagen leeren"
+          }
+        }
+      }
+    },
+    "CLUBS" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VEREINE"
+          }
+        }
+      }
+    },
+    "CODE:" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CODE:"
+          }
+        }
+      }
+    },
+    "CONFIRM PASSWORD" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PASSWORT BESTÄTIGEN"
+          }
+        }
+      }
+    },
+    "DATE:" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DATUM:"
+          }
+        }
+      }
+    },
+    "Delete account" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konto löschen"
+          }
+        }
+      }
+    },
+    "Delete the Order" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bestellung löschen"
+          }
+        }
+      }
+    },
+    "DO YOU ALREADY" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HAST DU BEREITS"
+          }
+        }
+      }
+    },
+    "DRINKS" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GETRÄNKE"
+          }
+        }
+      }
+    },
+    "DURATION:" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DAUER:"
+          }
+        }
+      }
+    },
+    "EMAIL" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EMAIL"
+          }
+        }
+      }
+    },
+    "EMAIL:" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EMAIL:"
+          }
+        }
+      }
+    },
+    "EXIT" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AUSFAHRT"
+          }
+        }
+      }
+    },
+    "FLAG AN ERROR" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EINEN FEHLER KENNEN"
+          }
+        }
+      }
+    },
+    "FOOD" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ESSEN"
+          }
+        }
+      }
+    },
+    "HAVE AN ACCOUNT?" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EIN KONTO?"
+          }
+        }
+      }
+    },
+    "Information" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Information"
+          }
+        }
+      }
+    },
+    "LOG IN" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EINLOGGEN"
+          }
+        }
+      }
+    },
+    "MAKE AN ORDER" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "EINE BESTELLUNG AUFGEBEN"
+          }
+        }
+      }
+    },
+    "MAKE RESERV" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "RESERVIEREN"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MAKE RESERVE"
+          }
+        }
+      }
+    },
+    "MENU" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SPEISEKARTE"
+          }
+        }
+      }
+    },
+    "NAME" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NAME"
+          }
+        }
+      }
+    },
+    "NAME:" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NAME:"
+          }
+        }
+      }
+    },
+    "NEWS" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NACHRICHT"
+          }
+        }
+      }
+    },
+    "No" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "NEIN"
+          }
+        }
+      }
+    },
+    "Ok" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
+    },
+    "OK" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
+    },
+    "Order Code: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bestellcode:"
+          }
+        }
+      }
+    },
+    "Orders" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bestellungen"
+          }
+        }
+      }
+    },
+    "PASSWORD" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PASSWORT"
+          }
+        }
+      }
+    },
+    "PHONE:" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TELEFON:"
+          }
+        }
+      }
+    },
+    "PLAYERS:" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SPIELER:"
+          }
+        }
+      }
+    },
+    "PRIVACY POLICY" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DATENSCHUTZRICHTLINIE"
+          }
+        }
+      }
+    },
+    "PROFILE" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PROFIL"
+          }
+        }
+      }
+    },
+    "QR" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR"
+          }
+        }
+      }
+    },
+    "RESERVATION" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RESERVIERUNG"
+          }
+        }
+      }
+    },
+    "RESERVATIONS:" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RESERVIERUNGEN:"
+          }
+        }
+      }
+    },
+    "RESERVE" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RESERVIEREN"
+          }
+        }
+      }
+    },
+    "SIGN UP" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MELDEN SIE SICH AN"
+          }
+        }
+      }
+    },
+    "SIGN UP NOW." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "JETZT ANMELDEN"
+          }
+        }
+      }
+    },
+    "SNACKS" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SNACKS"
+          }
+        }
+      }
+    },
+    "START TIME:" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "STARTZEIT:"
+          }
+        }
+      }
+    },
+    "Successfully!" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erfolgreich!"
+          }
+        }
+      }
+    },
+    "SUGGEST A MODIFICATION" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ÄNDERUNG VORSCHLAGEN"
+          }
+        }
+      }
+    },
+    "The Cart is Empty" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Einkaufswagen ist leer"
+          }
+        }
+      }
+    },
+    "The order has been successfully created!" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Bestellung wurde erfolgreich erstellt!"
+          }
+        }
+      }
+    },
+    "The Orders is Empty" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Bestellungen sind leer"
+          }
+        }
+      }
+    },
+    "The phone number was copied: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Telefonnummer wurde kopiert:"
+          }
+        }
+      }
+    },
+    "To access your reserves you will need to create a new account." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Um auf Ihre Reserven zuzugreifen, müssen Sie ein neues Konto erstellen."
+          }
+        }
+      }
+    },
+    "To use the club's services, participate in the loyalty program and confirm your booking, show the QR code to the manager." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Um die Dienste des Clubs zu nutzen, am Treueprogramm teilzunehmen und Ihre Buchung zu bestätigen, zeigen Sie dem Manager den QR-Code vor."
+          }
+        }
+      }
+    },
+    "Total Value: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gesamtwert: %@"
+          }
+        }
+      }
+    },
+    "TOTAL: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GESAMT: %@"
+          }
+        }
+      }
+    },
+    "Unable to send email" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-Mail kann nicht gesendet werden"
+          }
+        }
+      }
+    },
+    "Yes" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ja"
+          }
+        }
+      }
+    },
+    "You can find your order on the all orders screen. To make a payment and receive your order - show the QR code to the manager." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sie finden Ihre Bestellung auf dem Bildschirm „Alle Bestellungen“. Um eine Zahlung zu tätigen und Ihre Bestellung zu erhalten, zeigen Sie dem Manager den QR-Code."
+          }
+        }
+      }
+    },
+    "YOU DON’T HAVE AN ACCOUNT YET?" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SIE HABEN NOCH KEIN KONTO?"
+          }
+        }
+      }
+    },
+    "Your device does not have a mail client configured. Please configure your mail or contact support on our website." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auf Ihrem Gerät ist kein E-Mail-Client konfiguriert. Bitte konfigurieren Sie Ihren E-Mail-Client oder wenden Sie sich auf unserer Website an den Support."
+          }
+        }
+      }
+    },
+    "Your email" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ihre E-Mail"
+          }
+        }
+      }
+    },
+    "Your name" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ihr Name"
+          }
+        }
+      }
+    },
+    "Your phone number" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ihre Telefonnummer"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

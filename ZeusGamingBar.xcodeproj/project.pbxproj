@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9919B226F0A5AE4F5865EA74 /* Pods_ZeusGamingBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA6623D4E61570F0D6F1FC0 /* Pods_ZeusGamingBar.framework */; };
+		A50160BF2C99818D00810737 /* ClubCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50160BE2C99818D00810737 /* ClubCellView.swift */; };
+		A50160C12C998CB500810737 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50160C02C998CB400810737 /* NetworkManager.swift */; };
+		A50160C42C99A7D100810737 /* ReservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50160C32C99A7D100810737 /* ReservationView.swift */; };
+		A5265D4D2C917AD000EC4158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5265D4C2C917AD000EC4158 /* AppDelegate.swift */; };
+		A5265D4F2C917AD000EC4158 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5265D4E2C917AD000EC4158 /* SceneDelegate.swift */; };
+		A5265D512C917AD000EC4158 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5265D502C917AD000EC4158 /* ViewController.swift */; };
+		A5265D542C917AD000EC4158 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A5265D532C917AD000EC4158 /* Base */; };
+		A5265D562C917AD100EC4158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5265D552C917AD100EC4158 /* Assets.xcassets */; };
+		A5265D592C917AD100EC4158 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A5265D582C917AD100EC4158 /* Base */; };
+		A5265D672C91824B00EC4158 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5265D662C91824B00EC4158 /* BackgroundView.swift */; };
+		A5265D692C91825600EC4158 /* Color + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5265D682C91825600EC4158 /* Color + Extension.swift */; };
+		A5265D6C2C9184E700EC4158 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5265D6B2C9184E700EC4158 /* AuthView.swift */; };
+		A5265D6E2C918D7200EC4158 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5265D6D2C918D7200EC4158 /* AuthViewModel.swift */; };
+		A5265D722C91966000EC4158 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5265D712C91966000EC4158 /* RegistrationView.swift */; };
+		A5265D742C91976900EC4158 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5265D732C91976900EC4158 /* MainView.swift */; };
+		A5265D762C9197DB00EC4158 /* View + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5265D752C9197DB00EC4158 /* View + Extension.swift */; };
+		A5265D782C91984500EC4158 /* NewsCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5265D772C91984500EC4158 /* NewsCellView.swift */; };
+		A5265D7B2C9199B100EC4158 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5265D7A2C9199B100EC4158 /* TabView.swift */; };
+		A5265D7D2C919A3A00EC4158 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5265D7C2C919A3A00EC4158 /* TabButton.swift */; };
+		A5265DA32C94237300EC4158 /* ClubListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5265DA22C94237300EC4158 /* ClubListView.swift */; };
+		A5265DA62C94270300EC4158 /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5265DA52C94270300EC4158 /* Club.swift */; };
+		A548BC012C9C1B480062EB96 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A548BC002C9C1B480062EB96 /* GoogleService-Info.plist */; };
+		A58354292C9AC61C00040F79 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58354282C9AC61C00040F79 /* ProductView.swift */; };
+		A583542B2C9ACB2F00040F79 /* ProductCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A583542A2C9ACB2F00040F79 /* ProductCellView.swift */; };
+		A583542E2C9AE1F200040F79 /* RealmCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A583542D2C9AE1F200040F79 /* RealmCart.swift */; };
+		A58354312C9AE44600040F79 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58354302C9AE44600040F79 /* CartView.swift */; };
+		A58354342C9AEC7800040F79 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58354332C9AEC7800040F79 /* OrderView.swift */; };
+		A58354362C9AECAD00040F79 /* RealmOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58354352C9AECAD00040F79 /* RealmOrder.swift */; };
+		A5CB77642C9AF62900B8AD95 /* MainRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB77632C9AF62900B8AD95 /* MainRootView.swift */; };
+		A5CB77662C9AF90900B8AD95 /* ProgressAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB77652C9AF90900B8AD95 /* ProgressAlertView.swift */; };
+		A5CB776A2C9B166C00B8AD95 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A5CB77692C9B166C00B8AD95 /* Localizable.xcstrings */; };
+		A5D369462C99B67500B4E0FA /* MailManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D369452C99B67500B4E0FA /* MailManager.swift */; };
+		A5D369492C99B8C800B4E0FA /* QRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D369482C99B8C800B4E0FA /* QRView.swift */; };
+		A5D3694B2C99B9BA00B4E0FA /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3694A2C99B9BA00B4E0FA /* DataManager.swift */; };
+		A5D3694F2C99BEE700B4E0FA /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A5D3694E2C99BEE700B4E0FA /* RealmSwift */; };
+		A5D369502C99BEEF00B4E0FA /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = A5D3694E2C99BEE700B4E0FA /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A5D369532C99BF7E00B4E0FA /* RealmReserv.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D369522C99BF7E00B4E0FA /* RealmReserv.swift */; };
+		A5D369552C99BFB800B4E0FA /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D369542C99BFB800B4E0FA /* StorageManager.swift */; };
+		A5D369572C99CB3D00B4E0FA /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D369562C99CB3D00B4E0FA /* News.swift */; };
+		A5D369592C99D3CA00B4E0FA /* NewsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D369582C99D3CA00B4E0FA /* NewsDetailView.swift */; };
+		A5D3695C2C99DB5C00B4E0FA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3695B2C99DB5C00B4E0FA /* ProfileView.swift */; };
+		A5D3695E2C99E2EF00B4E0FA /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3695D2C99E2EF00B4E0FA /* Product.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A5D369512C99BEEF00B4E0FA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A5D369502C99BEEF00B4E0FA /* RealmSwift in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4FA6623D4E61570F0D6F1FC0 /* Pods_ZeusGamingBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZeusGamingBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0EA3D046904AC16488C6A4 /* Pods-ZeusGamingBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeusGamingBar.debug.xcconfig"; path = "Target Support Files/Pods-ZeusGamingBar/Pods-ZeusGamingBar.debug.xcconfig"; sourceTree = "<group>"; };
+		A50160BE2C99818D00810737 /* ClubCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubCellView.swift; sourceTree = "<group>"; };
+		A50160C02C998CB400810737 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A50160C32C99A7D100810737 /* ReservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationView.swift; sourceTree = "<group>"; };
+		A5265D492C917AD000EC4158 /* ZeusGamingBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeusGamingBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5265D4C2C917AD000EC4158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5265D4E2C917AD000EC4158 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A5265D502C917AD000EC4158 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5265D532C917AD000EC4158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5265D552C917AD100EC4158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5265D582C917AD100EC4158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5265D5A2C917AD100EC4158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5265D662C91824B00EC4158 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		A5265D682C91825600EC4158 /* Color + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + Extension.swift"; sourceTree = "<group>"; };
+		A5265D6B2C9184E700EC4158 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		A5265D6D2C918D7200EC4158 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		A5265D712C91966000EC4158 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		A5265D732C91976900EC4158 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A5265D752C9197DB00EC4158 /* View + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Extension.swift"; sourceTree = "<group>"; };
+		A5265D772C91984500EC4158 /* NewsCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCellView.swift; sourceTree = "<group>"; };
+		A5265D7A2C9199B100EC4158 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		A5265D7C2C919A3A00EC4158 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		A5265DA22C94237300EC4158 /* ClubListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubListView.swift; sourceTree = "<group>"; };
+		A5265DA52C94270300EC4158 /* Club.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
+		A548BC002C9C1B480062EB96 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A58354282C9AC61C00040F79 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		A583542A2C9ACB2F00040F79 /* ProductCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellView.swift; sourceTree = "<group>"; };
+		A583542D2C9AE1F200040F79 /* RealmCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmCart.swift; sourceTree = "<group>"; };
+		A58354302C9AE44600040F79 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		A58354332C9AEC7800040F79 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		A58354352C9AECAD00040F79 /* RealmOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmOrder.swift; sourceTree = "<group>"; };
+		A5CB77632C9AF62900B8AD95 /* MainRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRootView.swift; sourceTree = "<group>"; };
+		A5CB77652C9AF90900B8AD95 /* ProgressAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressAlertView.swift; sourceTree = "<group>"; };
+		A5CB77692C9B166C00B8AD95 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		A5D369452C99B67500B4E0FA /* MailManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailManager.swift; sourceTree = "<group>"; };
+		A5D369482C99B8C800B4E0FA /* QRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRView.swift; sourceTree = "<group>"; };
+		A5D3694A2C99B9BA00B4E0FA /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		A5D369522C99BF7E00B4E0FA /* RealmReserv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmReserv.swift; sourceTree = "<group>"; };
+		A5D369542C99BFB800B4E0FA /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		A5D369562C99CB3D00B4E0FA /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		A5D369582C99D3CA00B4E0FA /* NewsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailView.swift; sourceTree = "<group>"; };
+		A5D3695B2C99DB5C00B4E0FA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A5D3695D2C99E2EF00B4E0FA /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		C37C8AA4B040556D33B337E1 /* Pods-ZeusGamingBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZeusGamingBar.release.xcconfig"; path = "Target Support Files/Pods-ZeusGamingBar/Pods-ZeusGamingBar.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5265D462C917AD000EC4158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5D3694F2C99BEE700B4E0FA /* RealmSwift in Frameworks */,
+				9919B226F0A5AE4F5865EA74 /* Pods_ZeusGamingBar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50160C22C99A7C600810737 /* Reservation */ = {
+			isa = PBXGroup;
+			children = (
+				A50160C32C99A7D100810737 /* ReservationView.swift */,
+			);
+			path = Reservation;
+			sourceTree = "<group>";
+		};
+		A5265D402C917AD000EC4158 = {
+			isa = PBXGroup;
+			children = (
+				A5CB77692C9B166C00B8AD95 /* Localizable.xcstrings */,
+				A548BC002C9C1B480062EB96 /* GoogleService-Info.plist */,
+				A5265D4B2C917AD000EC4158 /* ZeusGamingBar */,
+				A5265D4A2C917AD000EC4158 /* Products */,
+				B75CF9BB762CA47F7528F2F2 /* Pods */,
+				E15E698A7BBD33E552377462 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5265D4A2C917AD000EC4158 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5265D492C917AD000EC4158 /* ZeusGamingBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5265D4B2C917AD000EC4158 /* ZeusGamingBar */ = {
+			isa = PBXGroup;
+			children = (
+				A58354322C9AEC7200040F79 /* Order */,
+				A583542F2C9AE43D00040F79 /* Cart */,
+				A58354272C9AC61100040F79 /* Product */,
+				A5D3695A2C99DB5200B4E0FA /* Profile */,
+				A5D3694C2C99BEC000B4E0FA /* RealmModel */,
+				A5D369472C99B8BA00B4E0FA /* QR */,
+				A50160C22C99A7C600810737 /* Reservation */,
+				A5265DA42C9426FD00EC4158 /* Model */,
+				A5265DA12C94236900EC4158 /* Clubs */,
+				A5265D792C9199A800EC4158 /* Root */,
+				A5265D6A2C9184DD00EC4158 /* Auth */,
+				A5265D652C917B5700EC4158 /* Service */,
+				A5265D642C917B4300EC4158 /* Extensions */,
+				A5265D632C917B3800EC4158 /* Components */,
+				A5265D622C917B3400EC4158 /* Main */,
+				A5265D612C917B2F00EC4158 /* Tab */,
+				A5265D602C917AED00EC4158 /* APP */,
+				A5265D522C917AD000EC4158 /* Main.storyboard */,
+				A5265D552C917AD100EC4158 /* Assets.xcassets */,
+				A5265D572C917AD100EC4158 /* LaunchScreen.storyboard */,
+				A5265D5A2C917AD100EC4158 /* Info.plist */,
+			);
+			path = ZeusGamingBar;
+			sourceTree = "<group>";
+		};
+		A5265D602C917AED00EC4158 /* APP */ = {
+			isa = PBXGroup;
+			children = (
+				A5265D4C2C917AD000EC4158 /* AppDelegate.swift */,
+				A5265D4E2C917AD000EC4158 /* SceneDelegate.swift */,
+				A5265D502C917AD000EC4158 /* ViewController.swift */,
+			);
+			path = APP;
+			sourceTree = "<group>";
+		};
+		A5265D612C917B2F00EC4158 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				A5265D7A2C9199B100EC4158 /* TabView.swift */,
+				A5265D7C2C919A3A00EC4158 /* TabButton.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		A5265D622C917B3400EC4158 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A5265D732C91976900EC4158 /* MainView.swift */,
+				A5265D772C91984500EC4158 /* NewsCellView.swift */,
+				A5D369582C99D3CA00B4E0FA /* NewsDetailView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A5265D632C917B3800EC4158 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A5265D662C91824B00EC4158 /* BackgroundView.swift */,
+				A5D369452C99B67500B4E0FA /* MailManager.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A5265D642C917B4300EC4158 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A5265D682C91825600EC4158 /* Color + Extension.swift */,
+				A5265D752C9197DB00EC4158 /* View + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A5265D652C917B5700EC4158 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A50160C02C998CB400810737 /* NetworkManager.swift */,
+				A5D3694A2C99B9BA00B4E0FA /* DataManager.swift */,
+				A5D369542C99BFB800B4E0FA /* StorageManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A5265D6A2C9184DD00EC4158 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				A5265D702C91965500EC4158 /* Registration */,
+				A5265D6F2C91964C00EC4158 /* Login */,
+				A5CB77652C9AF90900B8AD95 /* ProgressAlertView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		A5265D6F2C91964C00EC4158 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A5265D6B2C9184E700EC4158 /* AuthView.swift */,
+				A5265D6D2C918D7200EC4158 /* AuthViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A5265D702C91965500EC4158 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				A5265D712C91966000EC4158 /* RegistrationView.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		A5265D792C9199A800EC4158 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				A5CB77632C9AF62900B8AD95 /* MainRootView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		A5265DA12C94236900EC4158 /* Clubs */ = {
+			isa = PBXGroup;
+			children = (
+				A5265DA22C94237300EC4158 /* ClubListView.swift */,
+				A50160BE2C99818D00810737 /* ClubCellView.swift */,
+			);
+			path = Clubs;
+			sourceTree = "<group>";
+		};
+		A5265DA42C9426FD00EC4158 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5265DA52C94270300EC4158 /* Club.swift */,
+				A5D369562C99CB3D00B4E0FA /* News.swift */,
+				A5D3695D2C99E2EF00B4E0FA /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A58354272C9AC61100040F79 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				A58354282C9AC61C00040F79 /* ProductView.swift */,
+				A583542A2C9ACB2F00040F79 /* ProductCellView.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		A583542F2C9AE43D00040F79 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				A58354302C9AE44600040F79 /* CartView.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		A58354322C9AEC7200040F79 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				A58354332C9AEC7800040F79 /* OrderView.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		A5D369472C99B8BA00B4E0FA /* QR */ = {
+			isa = PBXGroup;
+			children = (
+				A5D369482C99B8C800B4E0FA /* QRView.swift */,
+			);
+			path = QR;
+			sourceTree = "<group>";
+		};
+		A5D3694C2C99BEC000B4E0FA /* RealmModel */ = {
+			isa = PBXGroup;
+			children = (
+				A5D369522C99BF7E00B4E0FA /* RealmReserv.swift */,
+				A583542D2C9AE1F200040F79 /* RealmCart.swift */,
+				A58354352C9AECAD00040F79 /* RealmOrder.swift */,
+			);
+			path = RealmModel;
+			sourceTree = "<group>";
+		};
+		A5D3695A2C99DB5200B4E0FA /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A5D3695B2C99DB5C00B4E0FA /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B75CF9BB762CA47F7528F2F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B0EA3D046904AC16488C6A4 /* Pods-ZeusGamingBar.debug.xcconfig */,
+				C37C8AA4B040556D33B337E1 /* Pods-ZeusGamingBar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E15E698A7BBD33E552377462 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FA6623D4E61570F0D6F1FC0 /* Pods_ZeusGamingBar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5265D482C917AD000EC4158 /* ZeusGamingBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5265D5D2C917AD100EC4158 /* Build configuration list for PBXNativeTarget "ZeusGamingBar" */;
+			buildPhases = (
+				8DD413D52D96F789DB887AC7 /* [CP] Check Pods Manifest.lock */,
+				A5265D452C917AD000EC4158 /* Sources */,
+				A5265D462C917AD000EC4158 /* Frameworks */,
+				A5265D472C917AD000EC4158 /* Resources */,
+				A5D369512C99BEEF00B4E0FA /* Embed Frameworks */,
+				5C301D078667DA18C64880DA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZeusGamingBar;
+			packageProductDependencies = (
+				A5D3694E2C99BEE700B4E0FA /* RealmSwift */,
+			);
+			productName = ZeusGamingBar;
+			productReference = A5265D492C917AD000EC4158 /* ZeusGamingBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5265D412C917AD000EC4158 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A5265D482C917AD000EC4158 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = A5265D442C917AD000EC4158 /* Build configuration list for PBXProject "ZeusGamingBar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = A5265D402C917AD000EC4158;
+			packageReferences = (
+				A5D3694D2C99BEE700B4E0FA /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = A5265D4A2C917AD000EC4158 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5265D482C917AD000EC4158 /* ZeusGamingBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5265D472C917AD000EC4158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5265D562C917AD100EC4158 /* Assets.xcassets in Resources */,
+				A5CB776A2C9B166C00B8AD95 /* Localizable.xcstrings in Resources */,
+				A548BC012C9C1B480062EB96 /* GoogleService-Info.plist in Resources */,
+				A5265D592C917AD100EC4158 /* Base in Resources */,
+				A5265D542C917AD000EC4158 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C301D078667DA18C64880DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZeusGamingBar/Pods-ZeusGamingBar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZeusGamingBar/Pods-ZeusGamingBar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZeusGamingBar/Pods-ZeusGamingBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DD413D52D96F789DB887AC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZeusGamingBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5265D452C917AD000EC4158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5265D512C917AD000EC4158 /* ViewController.swift in Sources */,
+				A58354342C9AEC7800040F79 /* OrderView.swift in Sources */,
+				A50160C42C99A7D100810737 /* ReservationView.swift in Sources */,
+				A5265D742C91976900EC4158 /* MainView.swift in Sources */,
+				A5265D4D2C917AD000EC4158 /* AppDelegate.swift in Sources */,
+				A5CB77662C9AF90900B8AD95 /* ProgressAlertView.swift in Sources */,
+				A58354292C9AC61C00040F79 /* ProductView.swift in Sources */,
+				A5D369462C99B67500B4E0FA /* MailManager.swift in Sources */,
+				A5265D6C2C9184E700EC4158 /* AuthView.swift in Sources */,
+				A58354312C9AE44600040F79 /* CartView.swift in Sources */,
+				A583542E2C9AE1F200040F79 /* RealmCart.swift in Sources */,
+				A583542B2C9ACB2F00040F79 /* ProductCellView.swift in Sources */,
+				A5265D6E2C918D7200EC4158 /* AuthViewModel.swift in Sources */,
+				A5265D672C91824B00EC4158 /* BackgroundView.swift in Sources */,
+				A5265DA32C94237300EC4158 /* ClubListView.swift in Sources */,
+				A5265DA62C94270300EC4158 /* Club.swift in Sources */,
+				A5D3694B2C99B9BA00B4E0FA /* DataManager.swift in Sources */,
+				A5265D4F2C917AD000EC4158 /* SceneDelegate.swift in Sources */,
+				A5265D692C91825600EC4158 /* Color + Extension.swift in Sources */,
+				A50160C12C998CB500810737 /* NetworkManager.swift in Sources */,
+				A5D3695C2C99DB5C00B4E0FA /* ProfileView.swift in Sources */,
+				A5D369492C99B8C800B4E0FA /* QRView.swift in Sources */,
+				A5CB77642C9AF62900B8AD95 /* MainRootView.swift in Sources */,
+				A5265D782C91984500EC4158 /* NewsCellView.swift in Sources */,
+				A5265D7D2C919A3A00EC4158 /* TabButton.swift in Sources */,
+				A5265D762C9197DB00EC4158 /* View + Extension.swift in Sources */,
+				A5D369572C99CB3D00B4E0FA /* News.swift in Sources */,
+				A5D3695E2C99E2EF00B4E0FA /* Product.swift in Sources */,
+				A5D369532C99BF7E00B4E0FA /* RealmReserv.swift in Sources */,
+				A5265D7B2C9199B100EC4158 /* TabView.swift in Sources */,
+				A50160BF2C99818D00810737 /* ClubCellView.swift in Sources */,
+				A5265D722C91966000EC4158 /* RegistrationView.swift in Sources */,
+				A58354362C9AECAD00040F79 /* RealmOrder.swift in Sources */,
+				A5D369552C99BFB800B4E0FA /* StorageManager.swift in Sources */,
+				A5D369592C99D3CA00B4E0FA /* NewsDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5265D522C917AD000EC4158 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5265D532C917AD000EC4158 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5265D572C917AD100EC4158 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5265D582C917AD100EC4158 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5265D5B2C917AD100EC4158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5265D5C2C917AD100EC4158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5265D5E2C917AD100EC4158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0EA3D046904AC16488C6A4 /* Pods-ZeusGamingBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KN7899368;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZeusGamingBar/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Olympus Gaming";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZeusGamingBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A5265D5F2C917AD100EC4158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C37C8AA4B040556D33B337E1 /* Pods-ZeusGamingBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5KN7899368;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZeusGamingBar/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Olympus Gaming";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZeusGamingBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5265D442C917AD000EC4158 /* Build configuration list for PBXProject "ZeusGamingBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5265D5B2C917AD100EC4158 /* Debug */,
+				A5265D5C2C917AD100EC4158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5265D5D2C917AD100EC4158 /* Build configuration list for PBXNativeTarget "ZeusGamingBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5265D5E2C917AD100EC4158 /* Debug */,
+				A5265D5F2C917AD100EC4158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A5D3694D2C99BEE700B4E0FA /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A5D3694E2C99BEE700B4E0FA /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5D3694D2C99BEE700B4E0FA /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A5265D412C917AD000EC4158 /* Project object */;
+}

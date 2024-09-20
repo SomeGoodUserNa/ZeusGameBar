@@ -1321,19 +1321,8 @@ PODS:
   - OneSignal/OneSignalExtension (5.2.4):
     - OneSignal/OneSignalCore
     - OneSignal/OneSignalOutcomes
-  - OneSignal/OneSignalInAppMessages (5.2.4):
-    - OneSignal/OneSignalCore
-    - OneSignal/OneSignalNotifications
-    - OneSignal/OneSignalOSCore
-    - OneSignal/OneSignalOutcomes
-    - OneSignal/OneSignalUser
   - OneSignal/OneSignalLiveActivities (5.2.4):
     - OneSignal/OneSignalCore
-    - OneSignal/OneSignalOSCore
-    - OneSignal/OneSignalUser
-  - OneSignal/OneSignalLocation (5.2.4):
-    - OneSignal/OneSignalCore
-    - OneSignal/OneSignalNotifications
     - OneSignal/OneSignalOSCore
     - OneSignal/OneSignalUser
   - OneSignal/OneSignalNotifications (5.2.4):
@@ -1355,8 +1344,6 @@ DEPENDENCIES:
   - FirebaseAuth
   - FirebaseFirestore
   - OneSignal/OneSignal (< 6.0, >= 5.0.0)
-  - OneSignal/OneSignalInAppMessages (< 6.0, >= 5.0.0)
-  - OneSignal/OneSignalLocation (< 6.0, >= 5.0.0)
 
 SPEC REPOS:
   trunk:
@@ -1401,6 +1388,6 @@ SPEC CHECKSUMS:
   OneSignal: f804466dc7afd3645b0838d10c6b7616d574af1d
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
 
-PODFILE CHECKSUM: 5c20fe714263c7728688d4826f9084618b0ebfbf
+PODFILE CHECKSUM: 5bbfa657e97aff4a5d0386fd334cc1544fb30c7d
 
 COCOAPODS: 1.15.2

@@ -44,15 +44,6 @@ variant_for_slice()
   "OneSignalExtension.xcframework/ios-arm64_x86_64-simulator")
     echo "simulator"
     ;;
-  "OneSignalInAppMessages.xcframework/ios-arm64")
-    echo ""
-    ;;
-  "OneSignalInAppMessages.xcframework/ios-arm64_x86_64-maccatalyst")
-    echo "maccatalyst"
-    ;;
-  "OneSignalInAppMessages.xcframework/ios-arm64_x86_64-simulator")
-    echo "simulator"
-    ;;
   "OneSignalLiveActivities.xcframework/ios-arm64")
     echo ""
     ;;
@@ -60,15 +51,6 @@ variant_for_slice()
     echo "maccatalyst"
     ;;
   "OneSignalLiveActivities.xcframework/ios-arm64_x86_64-simulator")
-    echo "simulator"
-    ;;
-  "OneSignalLocation.xcframework/ios-arm64")
-    echo ""
-    ;;
-  "OneSignalLocation.xcframework/ios-arm64_x86_64-maccatalyst")
-    echo "maccatalyst"
-    ;;
-  "OneSignalLocation.xcframework/ios-arm64_x86_64-simulator")
     echo "simulator"
     ;;
   "OneSignalNotifications.xcframework/ios-arm64")
@@ -140,15 +122,6 @@ archs_for_slice()
   "OneSignalExtension.xcframework/ios-arm64_x86_64-simulator")
     echo "arm64 x86_64"
     ;;
-  "OneSignalInAppMessages.xcframework/ios-arm64")
-    echo "arm64"
-    ;;
-  "OneSignalInAppMessages.xcframework/ios-arm64_x86_64-maccatalyst")
-    echo "arm64 x86_64"
-    ;;
-  "OneSignalInAppMessages.xcframework/ios-arm64_x86_64-simulator")
-    echo "arm64 x86_64"
-    ;;
   "OneSignalLiveActivities.xcframework/ios-arm64")
     echo "arm64"
     ;;
@@ -156,15 +129,6 @@ archs_for_slice()
     echo "arm64 x86_64"
     ;;
   "OneSignalLiveActivities.xcframework/ios-arm64_x86_64-simulator")
-    echo "arm64 x86_64"
-    ;;
-  "OneSignalLocation.xcframework/ios-arm64")
-    echo "arm64"
-    ;;
-  "OneSignalLocation.xcframework/ios-arm64_x86_64-maccatalyst")
-    echo "arm64 x86_64"
-    ;;
-  "OneSignalLocation.xcframework/ios-arm64_x86_64-simulator")
     echo "arm64 x86_64"
     ;;
   "OneSignalNotifications.xcframework/ios-arm64")
@@ -288,9 +252,7 @@ install_xcframework() {
 install_xcframework "${PODS_ROOT}/OneSignal/iOS_SDK/OneSignalSDK/OneSignal_XCFramework/OneSignalFramework.xcframework" "OneSignal/OneSignal" "framework" "ios-arm64" "ios-arm64_x86_64-maccatalyst" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/OneSignal/iOS_SDK/OneSignalSDK/OneSignal_Core/OneSignalCore.xcframework" "OneSignal/OneSignalCore" "framework" "ios-arm64" "ios-arm64_x86_64-maccatalyst" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/OneSignal/iOS_SDK/OneSignalSDK/OneSignal_Extension/OneSignalExtension.xcframework" "OneSignal/OneSignalExtension" "framework" "ios-arm64" "ios-arm64_x86_64-maccatalyst" "ios-arm64_x86_64-simulator"
-install_xcframework "${PODS_ROOT}/OneSignal/iOS_SDK/OneSignalSDK/OneSignal_InAppMessages/OneSignalInAppMessages.xcframework" "OneSignal/OneSignalInAppMessages" "framework" "ios-arm64" "ios-arm64_x86_64-maccatalyst" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/OneSignal/iOS_SDK/OneSignalSDK/OneSignal_LiveActivities/OneSignalLiveActivities.xcframework" "OneSignal/OneSignalLiveActivities" "framework" "ios-arm64" "ios-arm64_x86_64-maccatalyst" "ios-arm64_x86_64-simulator"
-install_xcframework "${PODS_ROOT}/OneSignal/iOS_SDK/OneSignalSDK/OneSignal_Location/OneSignalLocation.xcframework" "OneSignal/OneSignalLocation" "framework" "ios-arm64" "ios-arm64_x86_64-maccatalyst" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/OneSignal/iOS_SDK/OneSignalSDK/OneSignal_Notifications/OneSignalNotifications.xcframework" "OneSignal/OneSignalNotifications" "framework" "ios-arm64" "ios-arm64_x86_64-maccatalyst" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/OneSignal/iOS_SDK/OneSignalSDK/OneSignal_OSCore/OneSignalOSCore.xcframework" "OneSignal/OneSignalOSCore" "framework" "ios-arm64" "ios-arm64_x86_64-maccatalyst" "ios-arm64_x86_64-simulator"
 install_xcframework "${PODS_ROOT}/OneSignal/iOS_SDK/OneSignalSDK/OneSignal_Outcomes/OneSignalOutcomes.xcframework" "OneSignal/OneSignalOutcomes" "framework" "ios-arm64" "ios-arm64_x86_64-maccatalyst" "ios-arm64_x86_64-simulator"

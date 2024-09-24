@@ -194,14 +194,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignal/OneSignalFramework.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalCore/OneSignalCore.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalExtension/OneSignalExtension.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalLiveActivities/OneSignalLiveActivities.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalNotifications/OneSignalNotifications.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalOSCore/OneSignalOSCore.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalOutcomes/OneSignalOutcomes.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalUser/OneSignalUser.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework"
@@ -222,14 +214,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignal/OneSignalFramework.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalCore/OneSignalCore.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalExtension/OneSignalExtension.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalLiveActivities/OneSignalLiveActivities.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalNotifications/OneSignalNotifications.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalOSCore/OneSignalOSCore.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalOutcomes/OneSignalOutcomes.framework"
-  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/OneSignal/OneSignalUser/OneSignalUser.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
